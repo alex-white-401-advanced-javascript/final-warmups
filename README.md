@@ -1,5 +1,8 @@
 # final-warmups
 
+## Links
+* [Repository](https://github.com/alex-white-401-advanced-javascript/final-warmups)
+
 ## Warmup Goals
 All warm ups are present and complete to the best of my ability. My code sucks and that's okay. My goal is to continue with these exercises weekly.
 
