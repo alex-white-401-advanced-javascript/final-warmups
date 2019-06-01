@@ -21,8 +21,8 @@ function fetchPeopleWithPromises(req, res) {
 }
 
 const fetchPeopleWithAsync = async () => {
-  const swapi = 'https://swapi.co/api/people/';
-  const result = await superagent.get(swapi);
+  const url = 'https://swapi.co/api/people/';
+  const result = await superagent.get(url);
   const urlArray = result.body.results.map(person => person.url);
   const promiseArray = urlArray.map(url => superagent.get(url));
   const people = await Promise.all(promiseArray);
